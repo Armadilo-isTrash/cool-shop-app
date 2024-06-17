@@ -4,6 +4,28 @@
   height: 20px;
 }
 
+.logo {
+  font-size: 40px;
+  font-family: var(--logo-font);
+  color: white;
+}
+
+.search-input {
+  width: 248px;
+  height: 44px;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.gold-text {
+  color: rgb(255, 217, 0);
+}
+.saphire-text {
+  color: rgb(33, 6, 185);
+}
+.logo {
+}
+
 .icon-search {
   width: 18px;
   height: 17px;
