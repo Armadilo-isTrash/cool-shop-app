@@ -1,4 +1,20 @@
 /* --------- HEADER ---------*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--header-gradient);
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.header-action {
+}
+
 .icon-menu {
   width: 28px;
   height: 20px;
@@ -10,11 +26,25 @@
   color: white;
 }
 
+.search-form {
+  display: flex;
+}
+
 .search-input {
   width: 248px;
   height: 44px;
   border: 1px solid white;
   border-radius: 4px;
+  background-color: #eeeeee;
+  border-radius: 4px 0 0 4px;
+}
+
+.search-button {
+  width: 52px;
+  height: 44px;
+  border-radius: 0 4px 4px 0;
+  border: none;
+  background-color: white;
 }
 
 .gold-text {
@@ -29,6 +59,18 @@
 .icon-search {
   width: 18px;
   height: 17px;
+}
+
+.language-changer {
+  font-size: 24px;
+  display: flex;
+  color: white;
+}
+.language-changer-button {
+  font-size: 24px;
+  border: none;
+  background: none;
+  color: white;
 }
 
 .icon-favorite-light {
