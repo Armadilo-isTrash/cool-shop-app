@@ -110,8 +110,24 @@
   background-color: #c3c943;
 }
 
+.icon-arrow-left,
+.icon-arrow-right {
+  width: 28px;
+  height: 28px;
+}
+
 /* --- Популярні --- */
 .icon-favorite-dark {
   width: 27px;
   height: 24px;
+}
+
+.icon-arrow-left {
+  left: -14px;
+  top: 102px;
+}
+
+.icon-arrow-right {
+  left: -14px;
+  top: 102px;
 }
